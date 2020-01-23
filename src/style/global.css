@@ -1,0 +1,70 @@
+/*=============================================
+=            Section General styles            =
+=============================================*/
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  height: 100vh;
+  background: var(--clr-body-back);
+  color: var(--clr-body);
+
+  font-family: var(--ff-secondary);
+  font-size: var(--fs-body);
+  line-height: 1.6;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+em {
+  font-weight: bolder;
+}
+
+/* a {
+  color: inherit; 
+  text-decoration: inherit; 
+} */
+
+img {
+  /* display: block; */
+  height: auto;
+  max-width: 100%;
+}
+
+/* Typography */
+
+h1,
+h2,
+h3 {
+  line-height: 1.1;
+  margin: 0;
+  color: inherit;
+  font-family: var(--ff-primary);
+  font-weight: 400;
+}
+
+h3 {
+  text-transform: uppercase;
+}
+
+h1 {
+  font-size: var(--fs-h1);
+}
+
+h2 {
+  font-size: var(--fs-h2);
+}
+
+h3 {
+  font-size: var(--fs-h3);
+}
+
+main {
+  margin-top: var(--main-padding-top);
+}
+
+/*=====  End of Section General styles  ======*/

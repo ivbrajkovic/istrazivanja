@@ -1,0 +1,53 @@
+/*=============================================
+=            Main            =
+=============================================*/
+
+.nav a,
+.footer a {
+  color: inherit; /* blue colors for links too */
+  text-decoration: inherit; /* no underline */
+}
+
+/*----------  Uvod  ----------*/
+
+/*----------  Prve centrale  ----------*/
+
+/* section {
+  margin-bottom: 4.5em;
+}
+
+section > h3 {
+  margin-top: 2em;
+} */
+
+/* .telefonija > article {
+  margin-top: 2.2em;
+} */
+
+/* .bell > div {
+  display: flex;
+}
+
+.bell > div > div {
+  padding: 1.5em;
+  align-self: center;
+}
+
+.bell__item-1--left {
+  order: 1;
+}
+
+.bell__item-1--right {
+  flex: 1;
+  order: 0;
+} */
+
+/*----------  Media query  ----------*/
+
+/* @media only screen and (max-width: 40em) {
+  section {
+    margin-bottom: 3em;
+  }
+} */
+
+/*=====  End of Main  ======*/

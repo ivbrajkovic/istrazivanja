@@ -1,0 +1,27 @@
+@import "./reset.css";
+@import "./variables.css";
+
+@import "./animations.css";
+@import "./transitions.css";
+
+@import "./global.css";
+@import "./bootstrap-utility.css";
+@import "./utility.css";
+
+@import "./rectangle-list.css";
+
+@import "./navigation.css";
+@import "./hero.css";
+@import "./main.css";
+@import "./footer.css";
+
+/* Debug */
+
+/* * {
+  outline: red solid 1px;
+} */
+
+.swiper-container {
+  max-width: 600px;
+  max-height: 300px;
+}

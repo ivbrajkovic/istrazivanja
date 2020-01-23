@@ -1,0 +1,52 @@
+/*=============================================
+ =            Custom props            =
+ =============================================*/
+
+:root {
+  /* --ff-primary: "Source Sans Pro", sans-serif;
+  --ff-secondary: "Source Code Pro", monospace; */
+  --ff-primary: "Montserrat", sans-serif;
+  --ff-secondary: "Work Sans", sans-serif;
+
+  --fw-regular: 300;
+  --fw-bold: 900;
+
+  /* body */
+  --clr-body: rgb(63, 56, 68);
+  /* --clr-body-back: rgb(230, 231, 236); */
+  --clr-body-back: #e3e6f7;
+
+  --clr-light: #f7f7f7;
+  --clr-light-2: 245, 245, 245;
+  --clr-light-3: #efefef;
+
+  --clr-dark: #303030;
+  --clr-accent: #16e0bd;
+
+  --clr-gradient-body: linear-gradient(to right, #e6e7ec, #e6e7ec, #dcdde2);
+  /* --back-gradient-1: linear-gradient(to right, #f1f1f1, #f1f7fc, #f1f1f1); */
+  --back-gradient-1: linear-gradient(to right, #f1f1f1, #f1f7fc, #f1f1f1);
+
+  --shadow-key-umbra-opacity: 0.2;
+  --shadow-key-penumbra-opacity: 0.14;
+  --shadow-ambient-shadow-opacity: 0.12;
+
+  --fs-h1: 3rem;
+  --fs-h2: 2.25rem;
+  --fs-h3: 1.25rem;
+  --fs-body: 1rem;
+
+  --nav-padding: 1rem;
+  --main-padding-top: calc(2.3rem + var(--nav-padding) * 2);
+}
+
+@media (min-width: 800px) {
+  :root {
+    --fs-h1: 4.5rem;
+    --fs-h2: 3.75rem;
+    --fs-h3: 1.5rem;
+    --fs-body: 1.125rem;
+  }
+}
+
+/*=====  End of Custom props  ======*/

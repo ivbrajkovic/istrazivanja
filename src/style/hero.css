@@ -1,0 +1,71 @@
+/*=============================================
+=            Header            =
+=============================================*/
+
+.hero {
+  height: 100vh;
+  position: relative;
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* justify-content: flex-end; */
+  /* align-items: flex-end; */
+  /* align-items: center; */
+  /* text-align: center; */
+  /* background: #333; */
+  /* background: url("../img/hero-background.jpg") no-repeat center;
+  background-size: cover; */
+  overflow: hidden;
+  perspective: 100px;
+  transform-style: preserve-3d;
+}
+
+.hero::before {
+  content: "";
+  background: url("../img/hero-high.jpg") no-repeat center;
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  opacity: 0;
+  /* will-change: transform, opacity; */
+  animation: animation-fade-down 2s 0.5s cubic-bezier(0, 0.5, 0, 1) forwards;
+}
+
+.hero::after {
+  /* content: ""; */
+  background: #f9fcff;
+  height: 40rem;
+  position: absolute;
+  top: 90%;
+  left: -5%;
+  right: -5%;
+  transform-origin: 0 0;
+  transform: rotateZ(-4deg);
+}
+
+.hero__content {
+  /* transform: translate(60%, 200%); */
+  margin: 9rem 0rem 0rem 9rem;
+}
+
+/* .hero__title,
+.hero__subtitle {
+  color: var(--clr-light);
+} */
+
+.hero__title {
+  transform: rotate(-90deg) translate3d(-100%, -8rem, 0);
+  /* display: inline-block; */
+  transform-origin: 0% 0%;
+}
+
+.hero__subtitle {
+  /* text-transform: uppercase; */
+  margin-top: 1rem;
+  animation-delay: 0.8s;
+}
+
+/*=====  End of Header  ======*/
